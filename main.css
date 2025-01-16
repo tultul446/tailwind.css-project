@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+.image{
+ @apply w-7 h-7 bg-[#F9CCC7] rounded-full;
+
+}
+.heading{
+@apply m-10 border-b-4 border-[#F9CCC7]  text-2xl w-auto dark:text-white;
+
+}
+.tag{
+@apply border border-[#F44335]  text-sm md:text-sm max-w-40 text-center max-h-96  px-1.5 py-1 rounded-full hover:bg-[#F44335] hover:text-white transition-all cursor-pointer  mt-10 mb-5;
+
+
+}
+.section-all{
+   @apply container grid md:grid-cols-12 mx-auto mb-8  grid-flow-row md:gap-5 md:px-0 px-4 pt-10 bg-[#FAFAFA]  md:min-h-96 h-auto dark:bg-gray-900; 
+}
+
+.span{
+    @apply flex gap-3 font-sans mt-5;
+}
+
+
+}
+
+
+
+
+
+
+
+
